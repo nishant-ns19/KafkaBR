@@ -2,7 +2,7 @@
 
 ## This is a microservice which automatically backup Kafka topics onto AWS - S3 database for 30 days so that data can be retrieved from cloud whenever required.
 
-## Core Functionalities:
+## Core Functionalities of the service:
 ### - Backup records from topics given by the user by uploading them into a S3 bucket
 ### - Produce records into new topics after downloading them from S3 bucket as specified by the user
 ### - Add retention policy of 30 days for each S3 bucket so that data gets deleted automatically
